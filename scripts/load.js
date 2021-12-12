@@ -3,7 +3,7 @@ window.onload = function()
         var gSearch = document.getElementById("gSearch");
         var dSearch = document.getElementById("dSearch");
 
-        let storedLogo = localStorage.getItem('preferredEngine');
+        let storedLogo = localStorage.getItem('inons/duck.svg');
         let currentLogo;
 
         if (!storedLogo)
